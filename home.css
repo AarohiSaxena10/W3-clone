@@ -7,6 +7,7 @@
     /* position: fixed;
     top:40px; */
     width: 100%;
+    padding: 10px; 
 }
 .nav2 a{
     color: white;
@@ -33,6 +34,7 @@
       margin-top: 0px;
      width: 100%;
      /* position: fixed;
+      padding: 10px;
      top:0; */
 }
 .nav1 a{
@@ -181,4 +183,58 @@ button:hover{
 color: green;
 }
 
+@media (max-width: 768px) {
+    /* Adjust nav1 for smaller screens */
+    .nav1 {
+        flex-direction: column; /* Changed from row to column for stacking items */
+        align-items: flex-start; /* Align items to the left */
+        padding: 10px; /* Adjusted padding */
+    }
 
+    .nav1 a {
+        margin: 8px 0; /* Reduced margin for mobile */
+        font-size: 14px; /* Reduced font size for mobile */
+    }
+
+    /* Adjust nav2 for smaller screens */
+    .nav2 {
+        flex-direction: column; /* Changed from row to column for stacking items */
+        align-items: flex-start; /* Align items to the left */
+        padding: 10px; /* Adjusted padding */
+    }
+
+    .nav2 a {
+        font-size: 14px; /* Reduced font size for mobile */
+        margin: 5px 0; /* Adjusted margin for mobile */
+    }
+
+    .search {
+        width: 100%; /* Search box now takes full width on mobile */
+        margin-left: 0; /* Removed left margin */
+        font-size: 14px; /* Increased font size for readability */
+    }
+
+    .image {
+        width: 30px; /* Reduced image size for mobile */
+        height: 30px; /* Reduced image size for mobile */
+    }
+
+    .dark {
+        margin-left: 0; /* Removed margin for mobile */
+    }
+}
+
+/* Larger screens and tablets */
+@media (max-width: 1024px) {
+    .nav1 {
+        flex-direction: row; /* Keep the items in a row layout for tablets */
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .nav2 {
+        flex-direction: row; /* Keep the items in a row layout for tablets */
+        justify-content: space-between;
+        padding: 15px;
+    }
+}
