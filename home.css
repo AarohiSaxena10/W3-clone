@@ -216,7 +216,7 @@ color: green;
     }
 
     .search {
-        width: 30px; /* Search box now takes full width on mobile */
+        width: 100px; /* Search box now takes full width on mobile */
         margin-left: 0; /* Removed left margin */
         font-size: 14px; /* Increased font size for readability */
     }
