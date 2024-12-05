@@ -190,23 +190,23 @@ color: green;
     .nav1 {
         flex-direction: column; /* Changed from row to column for stacking items */
         align-items: flex-start; /* Align items to the left */
-        padding: 10px; /* Adjusted padding */
+        padding: 5px; /* Adjusted padding */
     }
 
     .nav1 a {
         margin: 8px 0; /* Reduced margin for mobile */
-        font-size: 14px; /* Reduced font size for mobile */
+        font-size: 10px; /* Reduced font size for mobile */
     }
 
     /* Adjust nav2 for smaller screens */
     .nav2 {
         flex-direction: column; /* Changed from row to column for stacking items */
         align-items: flex-start; /* Align items to the left */
-        padding: 10px; /* Adjusted padding */
+        padding: 6px; /* Adjusted padding */
     }
 
     .nav2 a {
-        font-size: 14px; /* Reduced font size for mobile */
+        font-size: 10px; /* Reduced font size for mobile */
         margin: 5px 0; /* Adjusted margin for mobile */
     }
 
