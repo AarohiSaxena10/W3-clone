@@ -105,7 +105,7 @@ button:hover{
 {   border-radius: 30px;
     width: 35%;
     height: 45px;
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 17px;
     margin-top: 20px;
 
@@ -186,7 +186,6 @@ color: green;
 }
 
 @media (max-width: 768px) {
-    /* Adjust nav1 for smaller screens */
     .nav1 {
         flex-direction: column; /* Changed from row to column for stacking items */
         align-items: flex-start; /* Align items to the left */
@@ -194,19 +193,17 @@ color: green;
         overflow:scroll;
     }
     .text2{
-        padding-left:30px;
+        padding-left:40px;
 
     .nav1 a {
         margin: 8px 0; /* Reduced margin for mobile */
         font-size: 10px; /* Reduced font size for mobile */
     }
-
-    /* Adjust nav2 for smaller screens */
     .nav2 {
-        flex-direction: column; /* Changed from row to column for stacking items */
-        align-items: flex-start; /* Align items to the left */
+        flex-direction: row; 
+        justify-content: flex-start; /* Align items to the left */
         padding: 6px; 
-        overflow:scroll;/* Adjusted padding */
+        overflow:scroll;
     }
 
     .nav2 a {
