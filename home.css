@@ -192,6 +192,8 @@ color: green;
         align-items: flex-start; /* Align items to the left */
         padding: 5px; /* Adjusted padding */
     }
+    .text2{
+        padding-left:20px;
 
     .nav1 a {
         margin: 8px 0; /* Reduced margin for mobile */
