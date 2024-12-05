@@ -186,7 +186,7 @@ color: green;
 }
 
 @media (max-width: 768px) {
-    hv{
+    .hv{
         display:flex;
     }
     .nav1 {
@@ -205,8 +205,6 @@ color: green;
     .nav2 {
         flex-direction: row; 
         justify-content: flex-start; /* Align items to the left */
-        
-        overflow:scroll;
     }
 
     .nav2 a {
