@@ -206,12 +206,12 @@ color: green;
      flex-direction: column; /* Changed from row to column for stacking items */
         align-items: flex-start; /* Align items to the left */
         padding: 6px; 
-        overflow:scroll;
     }
 
     .nav2 a {
         font-size: 10px; /* Reduced font size for mobile */
         margin: 5px 0; /* Adjusted margin for mobile */
+        overflow:scroll;
     }
 
     .search {
