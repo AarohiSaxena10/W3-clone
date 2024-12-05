@@ -218,17 +218,20 @@ color: green;
     .search {
         width: 100px; /* Search box now takes full width on mobile */
         margin-left: 0; /* Removed left margin */
-        font-size: 14px; /* Increased font size for readability */
+        font-size: 14px;
+        margin-top:10px;
+        
     }
 
     .image {
         width: 30px; /* Reduced image size for mobile */
         height: 30px; 
-        padding:7px;/* Reduced image size for mobile */
+       padding:9px;/* Reduced image size for mobile */
     }
 
     .dark {
-        margin-left: 0; /* Removed margin for mobile */
+        margin-left: 0;
+        padding:9px;/* Removed margin for mobile */
     }
 }
 
