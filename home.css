@@ -186,6 +186,9 @@ color: green;
 }
 
 @media (max-width: 768px) {
+    hv{
+        display:flex;
+    }
     .nav1 {
         flex-direction: column; /* Changed from row to column for stacking items */
         align-items: flex-start; /* Align items to the left */
@@ -202,7 +205,7 @@ color: green;
     .nav2 {
         flex-direction: row; 
         justify-content: flex-start; /* Align items to the left */
-        padding: 6px; 
+        
         overflow:scroll;
     }
 
