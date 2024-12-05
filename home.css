@@ -227,7 +227,7 @@ color: green;
     .image {
         width: 30px; /* Reduced image size for mobile */
         height: 30px; 
-       padding:13px;/* Reduced image size for mobile */
+       padding:13px 5px 0px 0px;/* Reduced image size for mobile */
     }
 
     .dark {
