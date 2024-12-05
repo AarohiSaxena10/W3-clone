@@ -217,7 +217,8 @@ color: green;
 
     .search {
         width: 100px; /* Search box now takes full width on mobile */
-        margin-left: 0; /* Removed left margin */
+        margin-left: 0; 
+        margin-right:5px;/* Removed left margin */
         font-size: 14px;
         margin-top:10px;
         
@@ -226,7 +227,7 @@ color: green;
     .image {
         width: 30px; /* Reduced image size for mobile */
         height: 30px; 
-       padding:9px;/* Reduced image size for mobile */
+       padding:13px;/* Reduced image size for mobile */
     }
 
     .dark {
